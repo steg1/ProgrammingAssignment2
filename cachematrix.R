@@ -1,7 +1,7 @@
 ## Function makeCacheMatrix
 ##    usage: A1 <- makeCacheMatrix(A)
 ##       -->> given A as a matrix that is invertible
-##       -->> Note that "x" must be a matrix, not a vector
+##       -->> Note that "A" must be a matrix, not a vector
 ##  
 ##  The function creates "subfunctions" callable on any item defined as the function.
 ##     get usage: A1$get()
