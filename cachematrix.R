@@ -17,6 +17,7 @@
 ##  This code is based on the example "makeVector" function
 ##    provided by the instructor of the R Programming Coursera class by Johns Hopkins.
 
+
 makeCacheMatrix <- function(x = matrix()) {
   #make sure matrix is invertible, or it will error out.
   if(det(x) == 0) {
